@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper';
 import 'swiper/css/bundle';
-import bannerBg from '../../../public/assets/img/slider-img/energyflow_hero2.jpg';
+import bannerBg from '../../../public/assets/img/slider-img/bookstore.jpg';
 import Link from 'next/link';
 
 const HomeTwoBannerArea = () => {
@@ -16,18 +16,18 @@ const HomeTwoBannerArea = () => {
   const sliderData = [
     {
       id: 1,
-      tagOne: 'Reliable Supply',
-      tagTwo: 'Ensuring Energy Security',
+      tagOne: 'Wide Selection',
+      tagTwo: 'Books for Every Interest',
     },
     {
       id: 2,
-      tagOne: 'Innovative Solutions',
-      tagTwo: 'Pioneering Energy Technologies',
+      tagOne: 'Competitive Prices',
+      tagTwo: 'Great Deals on Bestsellers',
     },
     {
       id: 3,
-      tagOne: 'Sustainable Practices',
-      tagTwo: 'Committed to a Greener Future',
+      tagOne: 'Fast Shipping',
+      tagTwo: 'Get Your Books Quickly',
     },
   ];
   return (
@@ -38,6 +38,7 @@ const HomeTwoBannerArea = () => {
           style={{
             backgroundImage: `url(${bannerBg.src})`,
             backgroundSize: 'cover',
+            filter: 'brightness(0.5)',
           }}
         ></div>
 

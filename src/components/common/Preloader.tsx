@@ -1,5 +1,4 @@
 import React from 'react';
-import logoImg from '../../../public/assets/img/logo/logo.svg';
 import preloaderIMg from '../../../public/assets/img/logo/preloader.svg';
 import Image from 'next/image';
 

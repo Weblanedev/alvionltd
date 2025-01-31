@@ -41,8 +41,12 @@ const HeaderOne = () => {
                 <div className="header-main-content-wrapper">
                   <div className="header-main-left header-main-left-header1">
                     <div className="header-logo header1-logo">
-                      <Link href="/" className="logo-bl">
-                        <Image src={logoImg} alt="logo-img" />
+                      <Link
+                        href="/"
+                        className="logo-bl"
+                        style={{ fontSize: '30px', fontWeight: 'bold' }}
+                      >
+                        Alvion
                       </Link>
                     </div>
                   </div>

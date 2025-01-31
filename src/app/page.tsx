@@ -7,7 +7,7 @@ import React from 'react';
 const Home = () => {
   return (
     <>
-      <MetaData pageTitle="Home Two">
+      <MetaData pageTitle="Alvion">
         <WrapperStyleTwo>
           <main>
             <HomeTwoMain />

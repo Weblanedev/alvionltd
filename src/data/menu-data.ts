@@ -13,7 +13,7 @@ const menu_data: MenuType[] = [
     hasDropdown: true,
     megaMenu: true,
     active: true,
-    title: 'Services',
+    title: 'Offerings',
     link: '#',
     submenus: [
       // {
@@ -29,10 +29,10 @@ const menu_data: MenuType[] = [
       //   //   { title: 'Group Product', link: '/group-product' },
       //   // ],
       // },
-      { title: 'Oil Exploration', link: '/' },
-      { title: 'Natural Gas Supply', link: '/' },
-      { title: 'Renewable Energy', link: '/' },
-      { title: 'Energy Consulting', link: '/' },
+      { title: 'Books', link: '/' },
+      { title: 'Authors', link: '/' },
+      { title: 'Limited Editions', link: '/' },
+      { title: 'Best Sellers', link: '/' },
     ],
   },
   {
